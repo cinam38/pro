@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Computer Science</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to External CSS -->
+    <script>
+        function showAlert() {
+            alert("Welcome To Java Script World!");
+        }
+    </script>
+</head>
+<body>
+    <h1>Final Lab Exam</h1>
+    
+    <h2>Feedback Form</h2>
+    <form onsubmit="showAlert(); return false;"> 
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" placeholder="Enter name here">
+        
+        <label for="lastName">Second Name:</label>
+        <input type="text" id="lastName" name="lastName" placeholder="Enter surname here"><br>
+        
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="e-mail address"><br>
+        
+        <label for="comment">Comment:</label>
+        <textarea id="comment" name="comment"></textarea><br>
+        
+        <button type="submit">Submit</button>
+    </form>
+    
+    <h3>Mobile Operating System</h3>
+    <ul>
+        <li>Android</li>
+        <li>Blackberry</li>
+        <li>iPhone</li>
+        <li>Windows Phone</li>
+    </ul>
+</body>
+</html>
